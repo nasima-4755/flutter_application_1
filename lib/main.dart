@@ -19,31 +19,33 @@ class LabClass05 extends StatelessWidget {
           ),
           body: Row(
             children: [
-              Icon(Icons.ac_unit,
-               size: 60, color: const Color.fromARGB(255, 0, 122, 129)),
-              Text(
-                "Hi,",
-                style: TextStyle(
-                  color: Colors.red,
-                  fontSize: 30,
-                ),
-              ),
-              Text(
-                "This is",
-                style: TextStyle(
-                  color: Colors.yellow,
-                  fontSize: 50,
-                ),
-              ),
-              Text(
-                "Flutter",
-                style: TextStyle(
-                  color: Colors.orange,
-                  fontSize: 20,
-                ),
-              )
+              Icon(
+                Icons.star,
+                  size: 50, 
+                  color: const Color.fromARGB(248, 11, 1, 8)
+                  ),
+              Icon(
+                Icons.star,
+                  size: 50, 
+                  color: const Color.fromARGB(248, 11, 1, 8)
+                  ),
+              Icon(
+                Icons.star,
+                  size: 50, 
+                  color: const Color.fromARGB(248, 11, 1, 8)
+                  ),
+              Icon(
+                Icons.star,
+                  size: 50, 
+                  color: const Color.fromARGB(248, 11, 1, 8)
+                  ),
+              Icon(
+                Icons.star,
+                  size: 50, 
+                  color: const Color.fromARGB(58, 11, 1, 8)
+                  ),
             ],
           ),
         ));
   }
-}
+}``
